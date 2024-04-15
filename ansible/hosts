@@ -1,0 +1,11 @@
+[linux]
+linux-11091.canadacentral.cloudapp.azure.com
+linux-11092.canadacentral.cloudapp.azure.com
+linux-11093.canadacentral.cloudapp.azure.com
+
+[os:children]
+linux
+
+[linux:vars]
+ansible_user=vinay
+ansible_connection=ssh
